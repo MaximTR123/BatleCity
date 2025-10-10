@@ -1,0 +1,288 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Версия MSBuild 17.14.23+b0019275e для .NET Framework
+      Сборка начата 10.10.2025 11:55:14.
+      
+      Проект "D:\\Game_Engine\\BatleCity\\build\\CMakeFiles\\4.0.4\\CompilerIdC\\CompilerIdC.vcxproj" в узле 1 (целевые объекты по умолчанию).
+      PrepareForBuild:
+        Создание каталога "Debug\\".
+        Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+        Создание каталога "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Создание "Debug\\CompilerIdC.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        Обращение к "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        D:\\Visual Studio\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        D:\\Visual Studio\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> D:\\Game_Engine\\BatleCity\\build\\CMakeFiles\\4.0.4\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=D:\\Visual Studio\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Файл "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" удаляется.
+        Обращение к "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Сборка проекта "D:\\Game_Engine\\BatleCity\\build\\CMakeFiles\\4.0.4\\CompilerIdC\\CompilerIdC.vcxproj" завершена (целевые объекты по умолчанию).
+      
+      Сборка успешно завершена.
+          Предупреждений: 0
+          Ошибок: 0
+      
+      Прошло времени 00:00:03.16
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        D:/Game_Engine/BatleCity/build/CMakeFiles/4.0.4/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Версия MSBuild 17.14.23+b0019275e для .NET Framework
+      Сборка начата 10.10.2025 11:55:18.
+      
+      Проект "D:\\Game_Engine\\BatleCity\\build\\CMakeFiles\\4.0.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" в узле 1 (целевые объекты по умолчанию).
+      PrepareForBuild:
+        Создание каталога "Debug\\".
+        Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+        Создание каталога "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Создание "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        Обращение к "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        D:\\Visual Studio\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        D:\\Visual Studio\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> D:\\Game_Engine\\BatleCity\\build\\CMakeFiles\\4.0.4\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=D:\\Visual Studio\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Файл "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" удаляется.
+        Обращение к "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Сборка проекта "D:\\Game_Engine\\BatleCity\\build\\CMakeFiles\\4.0.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" завершена (целевые объекты по умолчанию).
+      
+      Сборка успешно завершена.
+          Предупреждений: 0
+          Ошибок: 0
+      
+      Прошло времени 00:00:01.32
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        D:/Game_Engine/BatleCity/build/CMakeFiles/4.0.4/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/Game_Engine/BatleCity/build/CMakeFiles/CMakeScratch/TryCompile-k211hk"
+      binary: "D:/Game_Engine/BatleCity/build/CMakeFiles/CMakeScratch/TryCompile-k211hk"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Game_Engine/BatleCity/build/CMakeFiles/CMakeScratch/TryCompile-k211hk'
+        
+        Run Build Command(s): "D:/Visual Studio/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_27ed9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Р’РµСЂСЃРёСЏ MSBuild 17.14.23+b0019275e РґР»СЏ .NET Framework
+        РЎР±РѕСЂРєР° РЅР°С‡Р°С‚Р° 10.10.2025 11:55:20.
+        
+        РџСЂРѕРµРєС‚ "D:\\Game_Engine\\BatleCity\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k211hk\\cmTC_27ed9.vcxproj" РІ СѓР·Р»Рµ 1 (С†РµР»РµРІС‹Рµ РѕР±СЉРµРєС‚С‹ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ).
+        PrepareForBuild:
+          РЎРѕР·РґР°РЅРёРµ РєР°С‚Р°Р»РѕРіР° "cmTC_27ed9.dir\\Debug\\".
+          РЎС‚СЂСѓРєС‚СѓСЂРёСЂРѕРІР°РЅРЅС‹Р№ РІС‹РІРѕРґ РІРєР»СЋС‡РµРЅ. Р¤РѕСЂРјР°С‚РёСЂРѕРІР°РЅРёРµ РґРёР°РіРЅРѕСЃС‚РёРєРё РєРѕРјРїРёР»СЏС‚РѕСЂР° Р±СѓРґРµС‚ РѕС‚СЂР°Р¶Р°С‚СЊ РёРµСЂР°СЂС…РёСЋ РѕС€РёР±РѕРє. РџРѕРґСЂРѕР±РЅРµРµ СЃРј. https://aka.ms/cpp/structured-output.
+          РЎРѕР·РґР°РЅРёРµ РєР°С‚Р°Р»РѕРіР° "D:\\Game_Engine\\BatleCity\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k211hk\\Debug\\".
+          РЎРѕР·РґР°РЅРёРµ РєР°С‚Р°Р»РѕРіР° "cmTC_27ed9.dir\\Debug\\cmTC_27ed9.tlog\\".
+        InitializeBuildStatus:
+          РЎРѕР·РґР°РЅРёРµ "cmTC_27ed9.dir\\Debug\\cmTC_27ed9.tlog\\unsuccessfulbuild", С‚Р°Рє РєР°Рє Р±С‹Р»Рѕ Р·Р°РґР°РЅРѕ "AlwaysCreate".
+          РћР±СЂР°С‰РµРЅРёРµ Рє "cmTC_27ed9.dir\\Debug\\cmTC_27ed9.tlog\\unsuccessfulbuild".
+        ClCompile:
+          D:\\Visual Studio\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_27ed9.dir\\Debug\\\\" /Fd"cmTC_27ed9.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c"
+          РћРїС‚РёРјРёР·РёСЂСѓСЋС‰РёР№ РєРѕРјРїРёР»СЏС‚РѕСЂ Microsoft (R) C/C++ РІРµСЂСЃРёРё 19.44.35217 РґР»СЏ x64
+          (C) РљРѕСЂРїРѕСЂР°С†РёСЏ РњР°Р№РєСЂРѕСЃРѕС„С‚ (Microsoft Corporation).  Р’СЃРµ РїСЂР°РІР° Р·Р°С‰РёС‰РµРЅС‹.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_27ed9.dir\\Debug\\\\" /Fd"cmTC_27ed9.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          D:\\Visual Studio\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Game_Engine\\BatleCity\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k211hk\\Debug\\cmTC_27ed9.exe" /INCREMENTAL /ILK:"cmTC_27ed9.dir\\Debug\\cmTC_27ed9.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Game_Engine/BatleCity/build/CMakeFiles/CMakeScratch/TryCompile-k211hk/Debug/cmTC_27ed9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Game_Engine/BatleCity/build/CMakeFiles/CMakeScratch/TryCompile-k211hk/Debug/cmTC_27ed9.lib" /MACHINE:X64  /machine:x64 cmTC_27ed9.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_27ed9.vcxproj -> D:\\Game_Engine\\BatleCity\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k211hk\\Debug\\cmTC_27ed9.exe
+        FinalizeBuildStatus:
+          Р¤Р°Р№Р» "cmTC_27ed9.dir\\Debug\\cmTC_27ed9.tlog\\unsuccessfulbuild" СѓРґР°Р»СЏРµС‚СЃСЏ.
+          РћР±СЂР°С‰РµРЅРёРµ Рє "cmTC_27ed9.dir\\Debug\\cmTC_27ed9.tlog\\cmTC_27ed9.lastbuildstate".
+        РЎР±РѕСЂРєР° РїСЂРѕРµРєС‚Р° "D:\\Game_Engine\\BatleCity\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k211hk\\cmTC_27ed9.vcxproj" Р·Р°РІРµСЂС€РµРЅР° (С†РµР»РµРІС‹Рµ РѕР±СЉРµРєС‚С‹ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ).
+        
+        РЎР±РѕСЂРєР° СѓСЃРїРµС€РЅРѕ Р·Р°РІРµСЂС€РµРЅР°.
+            РџСЂРµРґСѓРїСЂРµР¶РґРµРЅРёР№: 0
+            РћС€РёР±РѕРє: 0
+        
+        РџСЂРѕС€Р»Рѕ РІСЂРµРјРµРЅРё 00:00:01.50
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:227 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': D:/Visual Studio/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:270 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the C compiler's linker: "D:/Visual Studio/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.44.35217.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/Game_Engine/BatleCity/build/CMakeFiles/CMakeScratch/TryCompile-ntmntg"
+      binary: "D:/Game_Engine/BatleCity/build/CMakeFiles/CMakeScratch/TryCompile-ntmntg"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Game_Engine/BatleCity/build/CMakeFiles/CMakeScratch/TryCompile-ntmntg'
+        
+        Run Build Command(s): "D:/Visual Studio/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_399f5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Р’РµСЂСЃРёСЏ MSBuild 17.14.23+b0019275e РґР»СЏ .NET Framework
+        РЎР±РѕСЂРєР° РЅР°С‡Р°С‚Р° 10.10.2025 11:55:22.
+        
+        РџСЂРѕРµРєС‚ "D:\\Game_Engine\\BatleCity\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ntmntg\\cmTC_399f5.vcxproj" РІ СѓР·Р»Рµ 1 (С†РµР»РµРІС‹Рµ РѕР±СЉРµРєС‚С‹ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ).
+        PrepareForBuild:
+          РЎРѕР·РґР°РЅРёРµ РєР°С‚Р°Р»РѕРіР° "cmTC_399f5.dir\\Debug\\".
+          РЎС‚СЂСѓРєС‚СѓСЂРёСЂРѕРІР°РЅРЅС‹Р№ РІС‹РІРѕРґ РІРєР»СЋС‡РµРЅ. Р¤РѕСЂРјР°С‚РёСЂРѕРІР°РЅРёРµ РґРёР°РіРЅРѕСЃС‚РёРєРё РєРѕРјРїРёР»СЏС‚РѕСЂР° Р±СѓРґРµС‚ РѕС‚СЂР°Р¶Р°С‚СЊ РёРµСЂР°СЂС…РёСЋ РѕС€РёР±РѕРє. РџРѕРґСЂРѕР±РЅРµРµ СЃРј. https://aka.ms/cpp/structured-output.
+          РЎРѕР·РґР°РЅРёРµ РєР°С‚Р°Р»РѕРіР° "D:\\Game_Engine\\BatleCity\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ntmntg\\Debug\\".
+          РЎРѕР·РґР°РЅРёРµ РєР°С‚Р°Р»РѕРіР° "cmTC_399f5.dir\\Debug\\cmTC_399f5.tlog\\".
+        InitializeBuildStatus:
+          РЎРѕР·РґР°РЅРёРµ "cmTC_399f5.dir\\Debug\\cmTC_399f5.tlog\\unsuccessfulbuild", С‚Р°Рє РєР°Рє Р±С‹Р»Рѕ Р·Р°РґР°РЅРѕ "AlwaysCreate".
+          РћР±СЂР°С‰РµРЅРёРµ Рє "cmTC_399f5.dir\\Debug\\cmTC_399f5.tlog\\unsuccessfulbuild".
+        ClCompile:
+          D:\\Visual Studio\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_399f5.dir\\Debug\\\\" /Fd"cmTC_399f5.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
+          РћРїС‚РёРјРёР·РёСЂСѓСЋС‰РёР№ РєРѕРјРїРёР»СЏС‚РѕСЂ Microsoft (R) C/C++ РІРµСЂСЃРёРё 19.44.35217 РґР»СЏ x64
+          (C) РљРѕСЂРїРѕСЂР°С†РёСЏ РњР°Р№РєСЂРѕСЃРѕС„С‚ (Microsoft Corporation).  Р’СЃРµ РїСЂР°РІР° Р·Р°С‰РёС‰РµРЅС‹.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_399f5.dir\\Debug\\\\" /Fd"cmTC_399f5.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          D:\\Visual Studio\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Game_Engine\\BatleCity\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ntmntg\\Debug\\cmTC_399f5.exe" /INCREMENTAL /ILK:"cmTC_399f5.dir\\Debug\\cmTC_399f5.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Game_Engine/BatleCity/build/CMakeFiles/CMakeScratch/TryCompile-ntmntg/Debug/cmTC_399f5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Game_Engine/BatleCity/build/CMakeFiles/CMakeScratch/TryCompile-ntmntg/Debug/cmTC_399f5.lib" /MACHINE:X64  /machine:x64 cmTC_399f5.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_399f5.vcxproj -> D:\\Game_Engine\\BatleCity\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ntmntg\\Debug\\cmTC_399f5.exe
+        FinalizeBuildStatus:
+          Р¤Р°Р№Р» "cmTC_399f5.dir\\Debug\\cmTC_399f5.tlog\\unsuccessfulbuild" СѓРґР°Р»СЏРµС‚СЃСЏ.
+          РћР±СЂР°С‰РµРЅРёРµ Рє "cmTC_399f5.dir\\Debug\\cmTC_399f5.tlog\\cmTC_399f5.lastbuildstate".
+        РЎР±РѕСЂРєР° РїСЂРѕРµРєС‚Р° "D:\\Game_Engine\\BatleCity\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ntmntg\\cmTC_399f5.vcxproj" Р·Р°РІРµСЂС€РµРЅР° (С†РµР»РµРІС‹Рµ РѕР±СЉРµРєС‚С‹ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ).
+        
+        РЎР±РѕСЂРєР° СѓСЃРїРµС€РЅРѕ Р·Р°РІРµСЂС€РµРЅР°.
+            РџСЂРµРґСѓРїСЂРµР¶РґРµРЅРёР№: 0
+            РћС€РёР±РѕРє: 0
+        
+        РџСЂРѕС€Р»Рѕ РІСЂРµРјРµРЅРё 00:00:01.30
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:227 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': D:/Visual Studio/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:270 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "D:/Visual Studio/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.44.35217.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+...
