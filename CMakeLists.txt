@@ -1,5 +1,17 @@
 cmake_minimum_required(VERSION 4.0.4 FATAL_ERROR)
 
-project(BatleCity)
+set(PROJECT_NAME BatleCity)
+project(${PROJECT_NAME})
 
-add_executable(BatleCity src/main.cpp)
+add_executable(${PROJECT_NAME} src/main.cpp)
+
+set(GLFW_BUILD_DOCS OFF CACHE BOOL "" FORCE)
+set(GLFW_BUILD_TESTS OFF CACHE BOOL "" FORCE)
+set(GLFW_BUILD_EXAMPLES OFF CACHE BOOL "" FORCE)
+set(GLFW_INSTALL OFF CACHE BOOL "" FORCE)
+
+add_subdirectory(external/glfw)
+target_link_libraries(${PROJECT_NAME} glfw)
+
+add_subdirectory(external/glad)
+target_link_directories(${PROJECT_NAME} glad)
