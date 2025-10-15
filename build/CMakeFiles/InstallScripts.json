@@ -3,7 +3,8 @@
 	[
 		"D:/Game_Engine/BatleCity/build/cmake_install.cmake",
 		"D:/Game_Engine/BatleCity/build/external/glfw/cmake_install.cmake",
-		"D:/Game_Engine/BatleCity/build/external/glfw/src/cmake_install.cmake"
+		"D:/Game_Engine/BatleCity/build/external/glfw/src/cmake_install.cmake",
+		"D:/Game_Engine/BatleCity/build/external/glad/cmake_install.cmake"
 	],
 	"Parallel" : false
 }
