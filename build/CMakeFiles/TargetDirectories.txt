@@ -1,3 +1,6 @@
 D:/Game_Engine/BatleCity/build/CMakeFiles/BatleCity.dir
 D:/Game_Engine/BatleCity/build/CMakeFiles/ALL_BUILD.dir
 D:/Game_Engine/BatleCity/build/CMakeFiles/ZERO_CHECK.dir
+D:/Game_Engine/BatleCity/build/external/glfw/CMakeFiles/ALL_BUILD.dir
+D:/Game_Engine/BatleCity/build/external/glfw/src/CMakeFiles/glfw.dir
+D:/Game_Engine/BatleCity/build/external/glfw/src/CMakeFiles/update_mappings.dir
