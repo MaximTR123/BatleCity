@@ -4,11 +4,22 @@
     <ClCompile Include="D:\Game_Engine\BatleCity\src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="D:\Game_Engine\BatleCity\src\Renderer\ShaderProgram.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Game_Engine\BatleCity\src\Renderer\ShaderProgram.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="D:\Game_Engine\BatleCity\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{71D48418-AAE8-368A-9331-625291FF8ED6}</UniqueIdentifier>
+    </Filter>
     <Filter Include="Source Files">
       <UniqueIdentifier>{87B6FC4D-5AB4-3EC7-869F-E10D5D427A34}</UniqueIdentifier>
     </Filter>
